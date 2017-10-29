@@ -343,6 +343,11 @@ i {
 /*======================================================
                     Gallery 
 ========================================================*/
+.github-img {
+  width: auto;
+  height: 32px;
+  margin-left: 25px;
+}
 #biggest-box {
   width: 100%;
   height: 930px;
@@ -445,11 +450,11 @@ i {
 }
 #goals-left-box p {
   font-size: 1.2em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 #goals-right-box p {
   font-size: 1.2em;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }
 #goals-right-box {
   height: 350px;
@@ -643,4 +648,22 @@ textarea {
 }
 .goals-h2 {
   margin-top: 250px;
+}
+
+/*======================================================
+                  Thank you
+========================================================*/
+.thank-you-div {
+  width: 100%;
+  height: 100%;
+}
+.thank-you-div-inner {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.thank-you-div-inner p {
+  font-size: 1.5em;
 }

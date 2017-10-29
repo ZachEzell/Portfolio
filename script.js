@@ -137,7 +137,7 @@ $(() => {
       setTimeout(function() {
         //do something special
         $('h3').css('color', '#427AA1');
-      }, 1000);
+      }, 1);
       $('#blue-div').addClass('blue-box-div');
       //SVG
       turnOnAnimation('animated fadeIn', 'animated fadeOut', '.svg-book');
@@ -155,7 +155,7 @@ $(() => {
       setTimeout(function() {
         //do something special
         $('h3').css('color', 'black');
-      }, 1000);
+      }, 12);
       //SVG
       turnOffAnimation('animated fadeIn', 'animated fadeOut', '.svg-book');
       //Circle
@@ -176,7 +176,7 @@ $(() => {
 
   $('#h4-hover-1').hover(
     function() {
-      timer = 1000;
+      timer = 1;
       setTimeout(function() {
         //do something special
         $('#h4-hover-1').css('color', '#e9c46a');
@@ -204,7 +204,7 @@ $(() => {
       setTimeout(function() {
         //do something special
         $('#h4-hover-1').css('color', 'black');
-      }, 1000);
+      }, 12);
       //Circle
       turnOffAnimation('animated fadeIn', 'animated fadeOut', '.yellow-circle');
 
@@ -237,7 +237,7 @@ $(() => {
         //do something special
         console.log('hovered');
         $('#h4-hover-2').css('color', '#e76f51');
-      }, 1000);
+      }, 1);
       $('#orange-div').addClass('orange-box-div');
       turnOnAnimation('animated fadeIn', 'animated fadeOut', '.orange-circle');
       //SVG
@@ -254,7 +254,7 @@ $(() => {
       setTimeout(function() {
         //do something special
         $('#h4-hover-2').css('color', 'black');
-      }, 1000);
+      }, 12);
       turnOffAnimation('animated fadeIn', 'animated fadeOut', '.orange-circle');
       //SVG
       turnOffAnimation('animated fadeIn', 'animated fadeOut', '.svg-message');

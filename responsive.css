@@ -49,4 +49,10 @@
     width: auto;
     height: 13vw;
   }
+  .tall-div-ul {
+    position: absolute;
+    top: -220px;
+    right: 20px;
+    text-align: right;
+  }
 }
